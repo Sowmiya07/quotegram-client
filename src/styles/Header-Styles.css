@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+ul {
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    margin: 0 20px 0 20px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li:hover {
+    border-bottom: 2px solid gray;
+}
