@@ -1,0 +1,22 @@
+.feedsContainer {
+    width: 700px;
+    margin: 10px auto;
+}
+
+.feedBox {
+    padding: 10px;
+}
+
+.userName {
+    margin-bottom: 10px;
+}
+
+.quote {
+    width: 100%;
+    height: 80%;
+}
+
+.quoteInfo {
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+}
