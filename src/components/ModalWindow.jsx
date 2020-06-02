@@ -5,7 +5,7 @@ const sendPostToServer = (event) => {
     const imageFile = document.getElementById("file").files[0];
     const formData = new FormData();
     formData.append("file", imageFile);
-    fetch('http://localhost:8080/postImage/', {
+    fetch('http://localhost:8080/api/v1/user-profile/image/upload', {
         method: 'POST',
         body: formData
     }).then(console.log("success"));

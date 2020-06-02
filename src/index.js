@@ -2,12 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import HomePage from './components/HomePage';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <HomePage />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

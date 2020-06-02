@@ -1,21 +1,73 @@
 .header {
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    position: relative;
 }
 
-ul {
-    padding: 10px;
+.header a {
+    text-decoration: none;
 }
 
-li {
-    display: inline;
-    margin: 0 20px 0 20px;
-    letter-spacing: 0.5px;
+.header a:focus {
+    color: purple;
+}
+
+.logo {
+    font-size: 32px;
+    color: purple;
+    margin: 0 20px;
     font-weight: bold;
+}
+
+.search-wrapper {
+    margin: 5px 0px 5px 20px;
+    position: relative;
+}
+
+.search {
+    height: 40px;
+    width:  500px;
+    padding: 0 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    left: 0px;
+    background-color: #EEE;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.search-fai {
+    width: 15px;
+    height: 50%;
+    top: 25%;
+    right: 15px;
+    position: absolute;
+    color: purple;
     cursor: pointer;
 }
 
-li:hover {
-    border-bottom: 2px solid gray;
+.navbar {
+    position: absolute;
+    right: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar > a {
+    font-size: 18px;
+    margin-left: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar > a:hover {
+    background-color: #EEE;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
 }
